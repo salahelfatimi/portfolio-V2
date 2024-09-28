@@ -25,7 +25,7 @@ export default function Project(){
                                     
                                 }
                             </div>
-                            <Link target="_blank" className=" hover:border-[#D2BFB7] border-4 duration-700 border-[#193141] hover:text-[#D2BFB7] hover:bg-[#193141]  font-medium text-4xl bg-[#D2BFB7] text-[#193141] w-full text-center   p-4 " href={'https://github.com/salahelfatimi'}><span>View More In Github</span></Link>
+                            <Link target="_blank" className=" hover:border-[#D2BFB7] border-4 duration-700 border-[#193141] hover:text-[#D2BFB7] hover:bg-[#193141]  font-medium text-4xl bg-[#D2BFB7] text-[#193141] w-full text-center   p-4 " href={'https://github.com/salahelfatimi?tab=repositories'}><span>View More In Github</span></Link>
                         </div>
                     </div>
             </div>
