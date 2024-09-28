@@ -10,7 +10,7 @@ export default function Project(){
     return (
         <div className="  bg-[#193141] py-12">
             <div className=" container flex justify-center items-center flex-col pt-10">
-                    <h2 className=" text-[#D2BFB7] font-bold text-6xl text-center capitalize">latest project</h2>
+                    <h2 className=" text-[#D2BFB7] font-bold text-5xl text-center capitalize">latest project</h2>
                     <div className="  flex flex-col xl:flex-row items-center justify-between  pt-16">
                        
                         <div className=" justify-center flex flex-col gap-14 items-center  ">
