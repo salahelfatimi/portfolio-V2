@@ -10,7 +10,7 @@ export default function HeaderPage(){
                
             </div>
             <div className=" flex flex-col gap-6">
-                <span className="text-[#D2BFB7]  duration-500 text-4xl">Hello, I'm </span>
+                <span className="text-[#D2BFB7]  duration-500 text-4xl">Hello, I&apos;m </span>
                 <h1 className=" text-6xl font-semibold text-white">Salaheddine Elfatimi</h1>
                 <p className=" bg-[#29404E] p-2"><span className="text-[#D2BFB7] text-4xl font-medium">Full Stack Developer & Web Marketer</span></p>
                 <div className=" flex gap-4">
