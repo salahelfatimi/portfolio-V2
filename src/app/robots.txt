@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: *
+Sitemap: https://salaheddine-elfatimi.com/sitemap.xml
