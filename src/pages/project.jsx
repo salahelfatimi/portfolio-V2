@@ -10,7 +10,7 @@ export default function Project(){
     return (
         <div className="  bg-[#193141] py-12">
             <div className=" container flex justify-center items-center flex-col pt-10">
-                    <h2 className=" text-[#D2BFB7] font-bold text-5xl text-center capitalize">latest project</h2>
+                    <h2 className=" text-[#D2BFB7] font-bold text-3xl md:text-5xl text-center capitalize">latest project</h2>
                     <div className="  flex flex-col xl:flex-row items-center justify-between  pt-16">
                        
                         <div className=" justify-center flex flex-col gap-14 items-center  ">
@@ -25,7 +25,7 @@ export default function Project(){
                                     
                                 }
                             </div>
-                            <Link target="_blank" className=" hover:border-[#D2BFB7] border-4 duration-700 border-[#193141] hover:text-[#D2BFB7] hover:bg-[#193141]  font-medium text-4xl bg-[#D2BFB7] text-[#193141] w-full text-center   p-4 " href={'https://github.com/salahelfatimi?tab=repositories'}><span>View More In Github</span></Link>
+                            <Link target="_blank" className=" hover:border-[#D2BFB7] border-4 duration-700 border-[#193141] hover:text-[#D2BFB7] hover:bg-[#193141]  font-medium text-2xl md:text-4xl bg-[#D2BFB7] text-[#193141] w-full text-center   p-4 " href={'https://github.com/salahelfatimi?tab=repositories'}><span>View More In Github</span></Link>
                         </div>
                     </div>
             </div>
