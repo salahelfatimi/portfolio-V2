@@ -3,8 +3,8 @@ import { Fredoka } from "next/font/google";
 
 const fredoka = Fredoka({ subsets: ["hebrew"] });
 export const metadata = {
-  title: "Salaheddine Elfatimi",
-  description: "Full Stack Developer & Web Marketer",
+  title: "Salaheddine Elfatimi | Full Stack Developer & Web Marketer",
+  description: "Salaheddine Elfatimi is a Full Stack Developer & Web Marketer specializing in web development, SEO, and digital marketing strategies .",
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`,),
   keywords: ["Full Stack Developer", "Web Marketer", "Frontend Development", "Backend Development", "Web Development", "Digital Marketing", "SEO Specialist", "React Developer", "Next.js Developer", "Tailwind CSS", "JavaScript", "Node.js", "Freelance Developer", "Remote Developer", "Website Optimization", "Custom Web Solutions", "Responsive Design", "API Integration", "E-commerce Development", "Web Marketing Strategies", "Content Creation", "UI/UX Design", "Google Ads", "Facebook Ads"],
   alternates: {
@@ -13,8 +13,8 @@ export const metadata = {
     
   },
   openGraph: {
-    title: "Salaheddine Elfatimi",
-    description: "Full Stack Developer & Web Marketer",
+    title: "Salaheddine Elfatimi | Full Stack Developer & Web Marketer",
+    description: "Salaheddine Elfatimi is a Full Stack Developer & Web Marketer specializing in web development, SEO, and digital marketing strategies .",
     url:`${process.env.NEXT_PUBLIC_BASE_URL}`,
     robots: {
       index: true,
