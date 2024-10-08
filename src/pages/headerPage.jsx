@@ -19,7 +19,7 @@ export default function HeaderPage(){
                     <Link href={'mailto:job.elfatimi@gmail.com'} target="_blank"><Image className="bg-[#D2BFB7]  p-2 hover:animate-bounce  duration-500" src={'/icon/email.svg'} width={50} height={50}/></Link>
                     <Link href={'https://wa.me/+212602314804'} target="_blank"><Image className="bg-[#D2BFB7]  p-2 hover:animate-bounce  duration-500" src={'/icon/whatsapp.svg'} width={50} height={50}/></Link>
                     <Link href={'https://www.linkedin.com/in/salaheddine-elfatimi-b160ab252/'} target="_blank"><Image className="bg-[#D2BFB7]  p-2 hover:animate-bounce  duration-500" src={'/icon/linkedin.svg'} width={50} height={50}/></Link>    
-                    <Link href={'https://www.instagram.com/elfatimi_ng/'} target="_blank"><Image className="bg-[#D2BFB7]  p-2 hover:animate-bounce  duration-500" src={'/icon/instagram.svg'} width={50} height={50}/></Link>
+                    <Link href={'https://www.instagram.com/salaheddine_elfatimi/'} target="_blank"><Image className="bg-[#D2BFB7]  p-2 hover:animate-bounce  duration-500" src={'/icon/instagram.svg'} width={50} height={50}/></Link>
                 </div>
             </div>
         </div>
