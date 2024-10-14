@@ -1,3 +1,4 @@
+import EmblaCarousel from "@/components/infiniteHorizontalScroll";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -29,7 +30,7 @@ export default function HeaderPage(){
                 <Image src={'/icon/down-arrow.svg'} width={80} height={80}/>
             </div>
         </div>
-       
+        <EmblaCarousel/>
     </div>
     )
 }
