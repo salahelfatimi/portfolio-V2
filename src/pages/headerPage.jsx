@@ -5,6 +5,7 @@ import Link from "next/link";
 export default function HeaderPage(){
     return(
     <div className="bg-[#193141] py-12 xl:py-0 ">
+        
         <div className=" flex xl:flex-row flex-col items-center justify-center h-screen container gap-4 ">
             <div className="">
                 <Image className=" "  src={'/header.png'} width={400} height={400}/>
@@ -24,13 +25,13 @@ export default function HeaderPage(){
                 </div>
             </div>
         </div>
-        <div className="hidden lg:block">
+        {/* <div className="hidden lg:block">
             <div className="   animate-pulse  text-[#D2BFB7] text-xl font-semibold absolute text-center bottom-0 right-0 left-0 flex items-center flex-col" >
                 scroll down
                 <Image src={'/icon/down-arrow.svg'} width={80} height={80}/>
             </div>
-        </div>
-        <EmblaCarousel/>
+        </div> */}
+   
     </div>
     )
 }
