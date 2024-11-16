@@ -6,7 +6,7 @@ export default function HeaderPage(){
     return(
     <div className="bg-[#193141] py-12 xl:py-0 ">
         
-        <div className=" flex xl:flex-row flex-col items-center justify-center h-screen container gap-4 ">
+        <div className=" flex xl:flex-row flex-col items-center justify-center h-screen container gap-2 ">
             <div className="">
                 <Image className=" "  src={'/header.png'} width={400} height={400}/>
                

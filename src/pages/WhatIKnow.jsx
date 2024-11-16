@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function WhatIKnow(){
-    const coding=['Html','CSS','','','Javascript','React','Next.js','SQL','MongoDB','Prisma','Tailwind Css','Figma','laravel','WordPress',,'Php','Shopify','SEA / SEO','Adobe Illustrator']
+    const coding=['Html','CSS','Rest Api','NoSql','Javascript','React','Next.js','SQL','MongoDB','Prisma','Tailwind Css','Figma','laravel','WordPress',,'Php','Shopify','SEA / SEO','Adobe Illustrator']
     return(
         <div className="   bg-[#D2BFB7] pt-12 ">
             <div className="  pt-10">
