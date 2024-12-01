@@ -25,13 +25,16 @@ export default function Project(){
                                                 <Image className="border-4 border-[#D2BFB7] w-full h-full object-cover rounded-2xl transform transition-transform duration-700 group-hover:scale-105" src={ele.image} width={'1200'} height={'675'}/>
                                             </div>
                                             <h2  className=" bg-[#D2BFB7] text-[#193141]  w-fit py-1 px-3 rounded font-bold capitalize text-3xl transform transition-transform duration-700 group-hover:scale-105">{ele.title}</h2>
-                                            <div className=" flex  gap-3 transform transition-transform duration-700 group-hover:scale-105 items-center">
+                                            <div className=" flex flex-col lg:flex-row gap-3 transform transition-transform duration-700 group-hover:scale-105 lg:items-center">
                                                 <h2 className=" text-[#D2BFB7] font-medium uppercase">Coding : </h2>
-                                                {
-                                                    ele.code.map((ele,index)=>(
-                                                        <p  key={index} className="  text-[#D2BFB7] border-2 border-[#D2BFB7] py-1 px-3 rounded-full text-xs">{ele}</p>
-                                                    ))
-                                                }
+                                                <div className="flex flex-row gap-3">
+                                                    {
+                                                        ele.code.map((ele,index)=>(
+                                                            <p  key={index} className="  text-[#D2BFB7] border-2 border-[#D2BFB7] py-1 px-3 rounded-full text-xs">{ele}</p>
+                                                        ))
+                                                    }
+                                                </div>
+                                             
                                             </div>
                                            
                                         </Link>

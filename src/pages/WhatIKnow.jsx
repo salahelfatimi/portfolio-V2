@@ -16,6 +16,9 @@ export default function WhatIKnow(){
                         }
                     </div>
                 </div>
+                {/* <div className="w-full px-4 absolute bottom-0">
+                    <EmblaCarouselCode />
+                </div> */}
             </div>
         </div>
     )
