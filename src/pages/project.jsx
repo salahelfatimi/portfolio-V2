@@ -4,10 +4,11 @@ import Link from "next/link";
 
 export default function Project(){
     const website=[
-        {image:'/project/traficgenius.png', url:'https://www.traficgenius.com',title:'trafic genius'},
-        {image:'/project/explorem.png', url:'https://www.explorem.net',title:'explorem sarl'},
-        {image:'/project/ecotechdepannage.png', url:'https://www.ecotechdepannage.com',title:'ecotech depannage'},
-
+        {image:'/project/dayafandco.png', url:'https://www.dayafandco.com/',title:'dayaf & co',code:['restApi','NextJs','tailwindcss','Wordpress']},
+        {image:'/project/traficgenius.png', url:'https://www.traficgenius.com',title:'trafic genius',code:['restApi','NextJs','tailwindcss','Wordpress']},
+        {image:'/project/explorem.png', url:'https://www.explorem.net',title:'explorem sarl',code:['NextJs','tailwindcss','mongoDB','Prisma']},
+        {image:'/project/ecotechdepannage.png', url:'https://www.ecotechdepannage.com',title:'ecotech depannage',code:['NextJs','tailwindcss']},
+       
     ]
     return (
         <div className="  bg-[#193141] py-12">
@@ -19,11 +20,21 @@ export default function Project(){
                             <div className=" grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center">
                                 {
                                     website.map((ele,index)=>(
-                                        <div key={index} className=" relative  ">
-                                            <Link href={ele.url} target="_blank" className="group  absolute flex items-center justify-center duration-500 cursor-pointer hover:bg-[#D2BFB7]/50 shadow-inner rounded-3xl inset-0"><SquareArrowOutUpRight size={50} className=" text-[#193141] stroke-2 group-hover:block hidden  " /></Link>
-                                            <Image className=" rounded-3xl   " src={ele.image} width={'1200'} height={'675'}/>
-                                            
-                                        </div>
+                                        <Link href={ele.url} target="_blank" className="group flex flex-col gap-4 " key={index}>
+                                            <div className="rounded-2xl ">
+                                                <Image className="border-4 border-[#D2BFB7] w-full h-full object-cover rounded-2xl transform transition-transform duration-700 group-hover:scale-105" src={ele.image} width={'1200'} height={'675'}/>
+                                            </div>
+                                            <h2  className=" bg-[#D2BFB7] text-[#193141]  w-fit py-1 px-3 rounded font-bold capitalize text-3xl transform transition-transform duration-700 group-hover:scale-105">{ele.title}</h2>
+                                            <div className=" flex  gap-3 transform transition-transform duration-700 group-hover:scale-105 items-center">
+                                                <h2 className=" text-[#D2BFB7] font-medium uppercase">Coding : </h2>
+                                                {
+                                                    ele.code.map((ele,index)=>(
+                                                        <p className="  text-[#D2BFB7] border-2 border-[#D2BFB7] py-1 px-3 rounded-full text-xs">{ele}</p>
+                                                    ))
+                                                }
+                                            </div>
+                                           
+                                        </Link>
                                     ))
                                     
                                 }
