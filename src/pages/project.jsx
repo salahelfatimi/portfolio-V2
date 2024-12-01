@@ -29,7 +29,7 @@ export default function Project(){
                                                 <h2 className=" text-[#D2BFB7] font-medium uppercase">Coding : </h2>
                                                 {
                                                     ele.code.map((ele,index)=>(
-                                                        <p className="  text-[#D2BFB7] border-2 border-[#D2BFB7] py-1 px-3 rounded-full text-xs">{ele}</p>
+                                                        <p  key={index} className="  text-[#D2BFB7] border-2 border-[#D2BFB7] py-1 px-3 rounded-full text-xs">{ele}</p>
                                                     ))
                                                 }
                                             </div>

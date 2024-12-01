@@ -1,10 +1,8 @@
-
 import EmblaCarousel from "@/components/infiniteHorizontalScroll";
-import ProjectScrool from "@/components/projectScrool";
 import HeaderPage from "@/pages/headerPage";
 import Project from "@/pages/project";
 import WhatIKnow from "@/pages/WhatIKnow";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -14,7 +12,6 @@ export default function Home() {
    
     <WhatIKnow/>
     <Project/>
-    {/* <ProjectScrool/> */}
     
    </div>
   );
