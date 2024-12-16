@@ -1,6 +1,11 @@
 import "./globals.css";
+import localFont from 'next/font/local'
 import { Fredoka } from "next/font/google";
-
+const myFont = localFont({ 
+  src: '/fonts/Goodly-Bold.ttf',
+  variable: "--Goodly-Bold-sans",
+  weight: "100 900",
+ })
 const fredoka = Fredoka({ subsets: ["hebrew"] });
 export const metadata = {
   title: "Salaheddine Elfatimi | Full Stack Developer & Web Marketer",
@@ -38,9 +43,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${fredoka.className}  scroll-smooth  scrollbar scrollbar-thumb-[#193141] `}
-      >
+      <body className={` ${myFont.className}  scroll-smooth  bg-black scrollbar scrollbar-thumb-[#fe3c01] scrollbar-track-black h-32 overflow-y-scroll `}>
         {children}
       </body>
     </html>

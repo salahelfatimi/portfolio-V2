@@ -1,36 +1,47 @@
+"use client"
 import EmblaCarousel from "@/components/infiniteHorizontalScroll";
+import AutoScroll from "embla-carousel-auto-scroll";
+import useEmblaCarousel from "embla-carousel-react";
+import { Dot, File, Instagram, Linkedin, LinkIcon, Mail, MessageSquare } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function HeaderPage(){
+    const [emblaRef] = useEmblaCarousel({ loop: true }, [
+        AutoScroll({ stopOnInteraction:false,stopOnMouseEnter:true ,speed: 0.7  })
+      ])
+    const coding=['Html','CSS','Rest Api','NoSql','Javascript','React','Next.js','SQL','MongoDB','Prisma','Tailwind Css','Figma','laravel','WordPress',,'Php','Shopify','SEA / SEO','Adobe Illustrator']
+ 
     return(
-    <div className="bg-[#193141] py-12 xl:py-0 ">
-        
-        <div className=" flex xl:flex-row flex-col items-center justify-center h-screen container gap-2 ">
-            <div className="">
-                <Image className=" "  src={'/header.png'} width={400} height={400}/>
-               
-            </div>
-            <div className=" flex flex-col gap-6">
-                <span className="text-[#2a9348] font-medium animate-pulse  duration-500 flex gap-1 capitalize"><Image className="    " src={'/icon/online.svg'} width={10} height={10}/>ready to work</span>
-                <span className="text-[#D2BFB7]  duration-500 text-2xl md:text-4xl">Hello, I&apos;m </span>
-                <h1 className=" text-3xl md:text-6xl font-semibold text-white">Salaheddine Elfatimi</h1>
-                <p className=" bg-[#29404E] p-2"><span className="text-[#D2BFB7] text-2xl md:text-4xl font-medium">Full Stack Developer & Web Marketer</span></p>
-                <div className=" flex gap-4">
-                    <Link href={'/resume.pdf'} target="_blank"><Image className="bg-[#D2BFB7]  p-2 hover:animate-bounce  duration-500" src={'/icon/resume.svg'} width={50} height={50}/></Link>
-                    <Link href={'mailto:job.elfatimi@gmail.com'} target="_blank"><Image className="bg-[#D2BFB7]  p-2 hover:animate-bounce  duration-500" src={'/icon/email.svg'} width={50} height={50}/></Link>
-                    <Link href={'https://wa.me/+212602314804'} target="_blank"><Image className="bg-[#D2BFB7]  p-2 hover:animate-bounce  duration-500" src={'/icon/whatsapp.svg'} width={50} height={50}/></Link>
-                    <Link href={'https://www.linkedin.com/in/salaheddine-elfatimi-b160ab252/'} target="_blank"><Image className="bg-[#D2BFB7]  p-2 hover:animate-bounce  duration-500" src={'/icon/linkedin.svg'} width={50} height={50}/></Link>    
-                    <Link href={'https://www.instagram.com/salaheddine_elfatimi/'} target="_blank"><Image className="bg-[#D2BFB7]  p-2 hover:animate-bounce  duration-500" src={'/icon/instagram.svg'} width={50} height={50}/></Link>
+    <div id="me" className="bg-black relative  ">
+            <div className="rounded-full-css bg-[#fe3c01] w-full h-16 bottom-0 absolute z-10 rotate-180 "></div>
+            <EmblaCarousel/>
+            <div className=" flex flex-col items-center justify-center h-[100vh] container gap-2 ">
+                <span className="text-[#fe3c01]  duration-500 text-2xl md:text-4xl">Hello, I&apos;m </span>
+                <div className=" relative">
+                    <Image className="  absolute -top-20 right-0 z-0 animate-bounce "  src={'/king.png'} width={100} height={100}/>
+                    <h1 className=" relative z-10 text-3xl md:text-6xl  font-semibold text-white uppercase">Salaheddine Elfatimi</h1>
+
                 </div>
-            </div>
+                <div className=" relative ">
+                    <Image className=" rounded-full border-4  border-[#fe3c01] bg-[url('/bg.png')]  "  src={'/me.png'} width={250} height={250}/>
+                    <span className="text-white py-1 px-2 rounded-full  border-black border-8 absolute top-0 -right-12 bg-[#fe3c01] -rotate-12 font-medium  text-xs  duration-500 flex items-center  capitalize"><Dot className=" stroke-2" />ready to work</span>
+                </div>
+                <p className="  p-2"><span className="text-[#fe3c01]  text-2xl md:text-4xl font-medium">Full Stack Developer & Web Marketer</span></p>
+                <div>
+                  
+                    <div className=" flex gap-4">
+                        <Link className="border-[#fff] group   rounded-3xl  border-4   hover:border-[#fe3c01]   duration-500 p-2 flex items-center justify-center" href={'/resume.pdf'} target="_blank"><File  className="stroke-[#fff] group-hover:stroke-[#fe3c01]" size={25}/></Link>
+                        <Link className="border-[#fff] group   rounded-3xl  border-4   hover:border-[#fe3c01]   duration-500 p-2 flex items-center justify-center" href={'mailto:job.elfatimi@gmail.com'} target="_blank"><Mail  className="stroke-[#fff] group-hover:stroke-[#fe3c01]" size={25}/></Link>
+                        <Link className="border-[#fff] group   rounded-3xl  border-4   hover:border-[#fe3c01]   duration-500 p-2 flex items-center justify-center" href={'https://wa.me/+212602314804'} target="_blank"><MessageSquare  className="stroke-[#fff] group-hover:stroke-[#fe3c01]" size={25}/></Link>
+                        <Link className="border-[#fff] group   rounded-3xl  border-4   hover:border-[#fe3c01]   duration-500 p-2 flex items-center justify-center" href={'https://www.linkedin.com/in/salaheddine-elfatimi-b160ab252/'} target="_blank"><Linkedin  className="stroke-[#fff] group-hover:stroke-[#fe3c01]" size={25}/></Link>    
+                        <Link className="border-[#fff] group   rounded-3xl  border-4   hover:border-[#fe3c01]   duration-500 p-2 flex items-center justify-center" href={'https://www.instagram.com/salaheddine_elfatimi/'} target="_blank"><Instagram  className="stroke-[#fff] group-hover:stroke-[#fe3c01]" size={25} /></Link>
+                    </div>
+                </div>
+               
         </div>
-        {/* <div className="hidden lg:block">
-            <div className="   animate-pulse  text-[#D2BFB7] text-xl font-semibold absolute text-center bottom-0 right-0 left-0 flex items-center flex-col" >
-                scroll down
-                <Image src={'/icon/down-arrow.svg'} width={80} height={80}/>
-            </div>
-        </div> */}
+        
+                
    
     </div>
     )
