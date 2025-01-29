@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function Project(){
     const website=[
-        {image:'/project/nj3d-marrakech.png', url:'https://nj3d-marrakech.com/',title:'nj3d marrakech',code:['Wordpress']},
         {image:'/project/french_opaname.png', url:'https://www.french-opaname.com',title:"French O'Paname",code:['restApi','NextJs','tailwindcss','Wordpress']},
+        {image:'/project/nj3d-marrakech.png', url:'https://nj3d-marrakech.com/',title:'nj3d marrakech',code:['Wordpress']},
         {image:'/project/elhabriConcept.png', url:'https://elhabriconcept.com',title:'Elhabri Concept',code:['Wordpress']},
         {image:'/project/dayafandco.png', url:'https://www.dayafandco.com/',title:'dayaf & co',code:['restApi','NextJs','tailwindcss','Wordpress']},
         {image:'/project/traficgenius.png', url:'https://www.traficgenius.com',title:'trafic genius',code:['restApi','NextJs','tailwindcss','Wordpress']},
