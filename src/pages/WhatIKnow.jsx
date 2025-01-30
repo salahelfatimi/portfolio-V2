@@ -17,7 +17,7 @@ export default function WhatIKnow(){
         <div className="bg-[url('/patterns/noisy.webp')] object-cover">
         <div id="wath-i-know" className=" container  relative min-h-screen flex flex-col justify-start items-center " >
             <div className="absolute animate-pulse top-0 left-1/2 transform -translate-x-1/2 translate-y-0 w-[200px] lg:w-[800px] h-[300px] bg-primary opacity-40 rounded-full blur-3xl z-0"></div>
-            <div className="absolute animate-pulse bottom-0 left-1/2 transform -translate-x-1/2 translate-y-0 w-[400px] lg:w-[1000px] h-[800px] bg-[#fe3c01]/50 opacity-70 rounded-full blur-3xl z-0"></div>
+            <div className="absolute animate-pulse bottom-0 left-1/2 transform -translate-x-1/2 translate-y-0 w-[400px] lg:w-[1000px] h-[500px] bg-[#fe3c01]/50 opacity-70 rounded-full blur-3xl z-0"></div>
 
             <div className="absolute top-0 left-0 w-full h-full bg-[url('/patterns/grid.webp')] bg-right-top bg-no-repeat"></div>
             <h2 className="z-50 relative text-primary  font-bold text-6xl gap-4 text-center uppercase">what I Do  </h2>
