@@ -18,7 +18,7 @@ export default function Project(){
         <div className="absolute top-0 right-0 w-full h-full bg-[url('/patterns/grid.webp')] bg-left-top bg-no-repeat"></div>
    
             <div className=" container ">
-                    <h2 className="z-50 relative  font-bold text-7xl md:text-7xl text-center capitalize mt-6 text-[#fe3c01]/50">project</h2>
+                    <h2 className="z-50 relative  font-bold text-7xl md:text-7xl text-center capitalize mt-6 text-[#fe3c01]">project</h2>
                     <div className="  flex flex-col xl:flex-row items-center justify-between  pt-16">
                        
                         <div className=" justify-center flex flex-col gap-14 items-center  ">
@@ -47,7 +47,7 @@ export default function Project(){
                                     
                                 }
                             </div>
-                            <Link target="_blank" className=" hover:border-[#fe3c01] border-4 duration-700 border-[#fe3c01] hover:text-[#fe3c01] hover:bg-black  font-medium text-2xl md:text-4xl bg-[#fe3c01] text-black w-full text-center   p-4 " href={'https://github.com/salahelfatimi?tab=repositories'}><span>View More In Github</span></Link>
+                            <Link target="_blank" className="hover:shadow-[0_0_40px_rgba(254,60,1,5.9)]  hover:bg-transparent z-50 relative hover:border-[#fe3c01] border-4 duration-700 border-[#fe3c01] hover:text-[#fe3c01] hover:bg-black  font-medium text-2xl md:text-4xl bg-[#fe3c01] text-black w-full text-center   p-4 " href={'https://github.com/salahelfatimi?tab=repositories'}><span>View More In Github</span></Link>
                         </div>
                     </div>
             </div>
