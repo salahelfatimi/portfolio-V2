@@ -13,11 +13,12 @@ export default function Project(){
         {image:'/project/ecotechdepannage.png', url:'https://www.ecotechdepannage.com',title:'ecotech depannage',code:['NextJs','tailwindcss']},
     ]
     return (
-        <div id="project" className=" relative  bg-[#000] py-12">
-            <div className="rounded-full-css bg-[#fe3c01] w-full h-16 top-0 absolute z-10  "></div>
-
-            <div className=" container flex justify-center items-center flex-col pt-10">
-                    <h2 className=" text-white font-bold text-3xl md:text-5xl text-center capitalize">latest project</h2>
+        <div className="  relative min-h-screen flex flex-col justify-start items-start bg-[url('/patterns/noisy.webp')] object-cover ">
+        <div className="absolute animate-pulse -top-28 left-1/2 transform -translate-x-1/2 translate-y-0  w-[300px] lg:w-[1300px] h-full bg-[#fe3c01]/50 opacity-60 rounded-full blur-3xl z-0"></div>
+        <div className="absolute top-0 right-0 w-full h-full bg-[url('/patterns/grid.webp')] bg-left-top bg-no-repeat"></div>
+   
+            <div className=" container ">
+                    <h2 className="z-50 relative text-white font-bold text-3xl md:text-7xl text-center capitalize mt-6">latest project</h2>
                     <div className="  flex flex-col xl:flex-row items-center justify-between  pt-16">
                        
                         <div className=" justify-center flex flex-col gap-14 items-center  ">
@@ -25,8 +26,8 @@ export default function Project(){
                                 {
                                     website.map((ele,index)=>(
                                         <Link href={ele.url} target="_blank" className="group flex flex-col gap-4 " key={index}>
-                                            <div className="rounded-2xl ">
-                                                <Image className="border-4 border-[#fe3c01] w-full h-full object-cover rounded-2xl transform transition-transform duration-700 group-hover:scale-105" src={ele.image} width={'1200'} height={'675'}/>
+                                            <div className="rounded-2xl shadow-[0_0_40px_rgba(254,60,1,0.5)]">
+                                            <Image className="border-4 border-[#fe3c01] w-full h-full object-cover rounded-2xl transform transition-transform duration-700 group-hover:scale-105" src={ele.image} width={'1200'} height={'675'}/>
                                             </div>
                                             <h2  className="  text-white  w-fit py-1 px-3 rounded font-bold capitalize text-3xl ">{ele.title}</h2>
                                             <div className=" flex flex-col lg:flex-row gap-3  lg:items-center">

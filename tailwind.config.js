@@ -33,7 +33,11 @@ module.exports = {
       },
     },
     extend: {
-     
+      colors: {
+        bg:'#080E14',
+        primary: '#93EBFF', 
+       
+      },
     },
   },
   plugins: [require('tailwind-scrollbar')({ preferredStrategy: 'pseudoelements' })],

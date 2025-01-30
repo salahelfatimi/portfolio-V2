@@ -5,3 +5,7 @@
 .rounded-full-css {
     clip-path:ellipse(60% 100% at 50% -10%)
   }
+  .noisy {
+    background-image: url("../../public/patterns/noisy.webp");
+  }
+  

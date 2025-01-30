@@ -43,7 +43,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={` ${myFont.className}  scroll-smooth  bg-black scrollbar scrollbar-thumb-[#fe3c01] scrollbar-track-black h-32 overflow-y-scroll `}>
+      <body className={` ${myFont.className}  scroll-smooth  bg-bg scrollbar scrollbar-thumb-primary scrollbar-track-bg h-32 overflow-y-scroll `}>
         {children}
       </body>
     </html>
