@@ -35,7 +35,7 @@ export default function Header() {
             </div>
             
             <p className="relative text-lg text-[#dfe5ec] mt-6 max-w-[600px] mx-auto text-center">
-            Hi there! <span className="animate-bounce inline-block">👋</span> I'm Salaheddine elfatimi, a Full-Stack Developer based in Marrakech, 
+            Hi there! <span className="animate-bounce inline-block">👋</span> I&apos;m Salaheddine elfatimi, a Full-Stack Developer based in Marrakech, 
             specializing in building scalable, efficient, and user-friendly web applications. 
             I turn ideas into high-performance digital experiences.
             </p>
