@@ -30,7 +30,7 @@ export default function WhatIKnow(){
             </div>
             <div className="flex relative z-50  flex-wrap columns-6 justify-center gap-4 mt-6">
                 {codingSkills.map((skill, i) => (
-                    <span key={i} className={` ${ i < codingSkills.length / 2 ? 'shadow-[0_0_40px_rgba(147,235,255,0.5)] border-primary text-primary' : 'border-[#fe3c01] shadow-[0_0_40px_rgba(254,60,1,0.5)] text-[#fe3c01] '}  px-8 py-4 text-4xl rounded-lg border bg-bg `}>
+                    <span key={i} className={` ${ i < codingSkills.length / 2 ? 'shadow-[0_0_40px_rgba(147,235,255,0.5)] border-primary text-primary' : 'border-[#fe3c01] shadow-[0_0_40px_rgba(254,60,1,0.5)] text-[#fe3c01] '}  px-8 py-4 text-4xl rounded-3xl border-4 bg-transparent `}>
                         {skill}
                     </span>
                 ))}
