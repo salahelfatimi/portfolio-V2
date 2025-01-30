@@ -3,6 +3,7 @@ import { Link2, SquareArrowOutUpRight } from "lucide-react"
 import Link from "next/link";
 
 export default function Project(){
+    
     const website=[
         {image:'/project/french_opaname.png', url:'https://www.french-opaname.com',title:"French O'Paname",code:['restApi','NextJs','tailwindcss','Wordpress']},
         {image:'/project/dayafandco.png', url:'https://www.dayafandco.com/',title:'dayaf & co',code:['restApi','NextJs','tailwindcss','Wordpress']},
@@ -12,9 +13,10 @@ export default function Project(){
         {image:'/project/explorem.png', url:'https://www.explorem.net',title:'explorem sarl',code:['NextJs','tailwindcss','mongoDB','Prisma']},
         {image:'/project/ecotechdepannage.png', url:'https://www.ecotechdepannage.com',title:'ecotech depannage',code:['NextJs','tailwindcss']},
     ]
+    
     return (
         <div className=" py-10  relative min-h-screen flex flex-col justify-start items-start bg-[url('/patterns/noisy.webp')] object-cover ">
-        <div className="absolute animate-pulse -top-28 left-1/2 transform -translate-x-1/2 translate-y-0  w-[300px] lg:w-[1300px] h-full bg-[#fe3c01]/50 opacity-60 rounded-full blur-3xl z-0"></div>
+        <div className="absolute animate-pulse -top-28 left-1/2 transform -translate-x-1/2 translate-y-0  w-[300px] lg:w-[1300px]  h-full bg-[#fe3c01]/50 opacity-50 rounded-t-full rounded-bl-3xl rounded-br-full blur-3xl z-0"></div>
         <div className="absolute top-0 right-0 w-full h-full bg-[url('/patterns/grid.webp')] bg-left-top bg-no-repeat"></div>
    
             <div className=" container ">
