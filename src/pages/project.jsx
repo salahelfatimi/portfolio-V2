@@ -13,12 +13,12 @@ export default function Project(){
         {image:'/project/ecotechdepannage.png', url:'https://www.ecotechdepannage.com',title:'ecotech depannage',code:['NextJs','tailwindcss']},
     ]
     return (
-        <div className="  relative min-h-screen flex flex-col justify-start items-start bg-[url('/patterns/noisy.webp')] object-cover ">
+        <div className=" py-10  relative min-h-screen flex flex-col justify-start items-start bg-[url('/patterns/noisy.webp')] object-cover ">
         <div className="absolute animate-pulse -top-28 left-1/2 transform -translate-x-1/2 translate-y-0  w-[300px] lg:w-[1300px] h-full bg-[#fe3c01]/50 opacity-60 rounded-full blur-3xl z-0"></div>
         <div className="absolute top-0 right-0 w-full h-full bg-[url('/patterns/grid.webp')] bg-left-top bg-no-repeat"></div>
    
             <div className=" container ">
-                    <h2 className="z-50 relative text-white font-bold text-3xl md:text-7xl text-center capitalize mt-6">latest project</h2>
+                    <h2 className="z-50 relative  font-bold text-7xl md:text-7xl text-center capitalize mt-6 text-[#fe3c01]/50">project</h2>
                     <div className="  flex flex-col xl:flex-row items-center justify-between  pt-16">
                        
                         <div className=" justify-center flex flex-col gap-14 items-center  ">

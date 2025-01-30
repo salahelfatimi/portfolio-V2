@@ -16,7 +16,7 @@ export default function Header() {
     }, []);
     
     return (
-        <div id="me" className="bg-bg h-screen flex flex-col justify-center items-center bg-[url('/patterns/noisy.webp')] object-cover ">
+        <div id="me" className="bg-bg min-h-screen flex flex-col justify-center items-center py-10 bg-[url('/patterns/noisy.webp')] object-cover ">
             <div className="absolute animate-pulse bottom-1/2 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-[200px] lg:w-[200px] h-[400px] bg-primary opacity-90 rounded-full blur-3xl z-0"></div>
             <div className="absolute top-0 left-0 w-full h-full bg-[url('/patterns/grid.webp')] bg-center bg-no-repeat"></div>
             <div className="absolute animate-pulse -bottom-32 left-1/2 transform -translate-x-1/2 translate-y-0 w-[200px] lg:w-[500px] h-[500px] bg-primary opacity-30 rounded-full blur-3xl z-0"></div>
@@ -27,10 +27,10 @@ export default function Header() {
                     </span>
                 ))}
             </div>
-            <h1 className="relative lg:text-8xl text-4xl text-center font-bold -mt-4 bg-gradient-to-r from-[#CEB5EA] via-primary to-white text-transparent bg-clip-text">
+            <h1 className="relative lg:text-6xl text-4xl text-center font-bold -mt-4 bg-gradient-to-r from-[#CEB5EA] via-primary to-white text-transparent bg-clip-text">
                 Full Stack Developer & Web Marketer
             </h1>
-            <div className="  bg-primary rounded-full mt-6 border-2 border-primary relative w-[200px] lg:w-[300px]  flex items-center justify-center">
+            <div className="  bg-primary rounded-full mt-6 border-8 border-primary relative w-[200px] lg:w-[300px]  flex items-center justify-center">
                 <Image src={'/me.png'} className=" rounded-full " width={300} height={300}/>
             </div>
             
