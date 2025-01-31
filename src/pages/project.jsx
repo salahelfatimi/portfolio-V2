@@ -49,7 +49,7 @@ export default function Project(){
                                     
                                 }
                             </div>
-                            <Link target="_blank" className="hover:shadow-[0_0_40px_rgba(254,60,1,5.9)]  hover:bg-transparent z-50 relative hover:border-[#fe3c01] border-4 duration-700 border-[#fe3c01] hover:text-[#fe3c01] hover:bg-black  font-medium text-2xl md:text-4xl bg-[#fe3c01] text-black w-full text-center   p-4 " href={'https://github.com/salahelfatimi?tab=repositories'}><span>View More In Github</span></Link>
+                            <Link target="_blank" className="hover:shadow-[0_0_40px_rgba(254,60,1,5.9)]  hover:bg-transparent z-50 relative hover:border-[#fe3c01] border-4 duration-700 border-[#fe3c01] hover:text-[#fe3c01] hover:bg-black  font-medium text-2xl md:text-4xl bg-[#fe3c01] text-black w-full text-center  rounded-3xl  p-4 " href={'https://github.com/salahelfatimi?tab=repositories'}><span>View More In Github</span></Link>
                         </div>
                     </div>
             </div>
