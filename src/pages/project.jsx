@@ -31,8 +31,8 @@ export default function Project(){
                                             <div className="rounded-3xl shadow-[0_0_40px_rgba(254,60,1,0.5)]">
                                             <Image className="border-4 border-[#fe3c01] w-full h-full object-cover rounded-3xl transform transition-transform duration-700 group-hover:scale-105" src={ele.image} width={'1200'} height={'675'}/>
                                             </div>
-                                            <h2  className="  text-white  w-fit py-1 px-3 rounded font-bold capitalize text-3xl ">{ele.title}</h2>
-                                            <div className=" flex flex-col lg:flex-row gap-3  lg:items-center">
+                                            <h2  className=" relative z-50 text-white  w-fit py-1 px-3 rounded font-bold capitalize text-3xl ">{ele.title}</h2>
+                                            <div className=" relative z-50 flex flex-col lg:flex-row gap-3  lg:items-center">
                                                 <h2 className=" text-white font-medium uppercase">Coding : </h2>
                                                 <div className="flex flex-row gap-3">
                                                     {

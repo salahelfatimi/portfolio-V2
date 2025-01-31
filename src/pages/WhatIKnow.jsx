@@ -23,7 +23,7 @@ export default function WhatIKnow(){
             <h2 className="z-50 relative text-primary  font-bold text-6xl gap-4 text-center uppercase">what I Do  </h2>
             <div className=" z-50 flex flex-col items-center justify-center w-full relative overflow-hidden h-[100px] max-md:h-[90px] ">
                 {whatIDo.map((text, index) => (
-                    <span key={index} className={`bg-clip-text text-transparent bg-white md:text-6xl text-2xl font-bold absolute h-[100px] duration-500 ${index === count ? "top-0 opacity-100" : "top-full opacity-0"}`}>
+                    <span key={index} className={`bg-clip-text text-transparent  bg-white md:text-6xl text-2xl font-bold absolute h-[100px] duration-500 ${index === count ? "top-0 opacity-100" : "top-full opacity-0"}`}>
                         {text}
                     </span>
                 ))}
