@@ -28,8 +28,8 @@ export default function Project(){
                                 {
                                     website.map((ele,index)=>(
                                         <Link href={ele.url} target="_blank" className="group flex flex-col gap-4 " key={index}>
-                                            <div className="rounded-2xl shadow-[0_0_40px_rgba(254,60,1,0.5)]">
-                                            <Image className="border-4 border-[#fe3c01] w-full h-full object-cover rounded-2xl transform transition-transform duration-700 group-hover:scale-105" src={ele.image} width={'1200'} height={'675'}/>
+                                            <div className="rounded-3xl shadow-[0_0_40px_rgba(254,60,1,0.5)]">
+                                            <Image className="border-4 border-[#fe3c01] w-full h-full object-cover rounded-3xl transform transition-transform duration-700 group-hover:scale-105" src={ele.image} width={'1200'} height={'675'}/>
                                             </div>
                                             <h2  className="  text-white  w-fit py-1 px-3 rounded font-bold capitalize text-3xl ">{ele.title}</h2>
                                             <div className=" flex flex-col lg:flex-row gap-3  lg:items-center">
@@ -37,7 +37,7 @@ export default function Project(){
                                                 <div className="flex flex-row gap-3">
                                                     {
                                                         ele.code.map((ele,index)=>(
-                                                            <p  key={index} className="  text-[#fe3c01] border-2 border-[#fe3c01] py-1 px-3 rounded-full text-xs">{ele}</p>
+                                                            <p  key={index} className="  text-[#fe3c01] border-2 border-[#fe3c01] py-1 px-3 rounded-3xl text-sm">{ele}</p>
                                                         ))
                                                     }
                                                 </div>
