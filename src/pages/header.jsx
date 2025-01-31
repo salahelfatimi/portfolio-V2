@@ -27,7 +27,7 @@ export default function Header() {
                     </span>
                 ))}
             </div>
-            <h1 className="relative lg:text-6xl text-4xl text-center font-bold -mt-4 bg-gradient-to-r from-primary via-primary to-white text-transparent bg-clip-text">
+            <h1 className="relative lg:text-6xl text-4xl text-center font-bold -mt-4 bg-gradient-to-r from-[#fe3c01]  via-primary to-white text-transparent bg-clip-text">
                 Full Stack Developer & Web Marketer
             </h1>
             <div className="  bg-primary rounded-full mt-6 border-8 border-primary relative w-[250px] lg:w-[250px]  flex items-center justify-center">
@@ -35,10 +35,11 @@ export default function Header() {
             </div>
             
             <p className="relative text-lg text-[#dfe5ec] mt-6 max-w-[600px] mx-auto text-center">
-            Hi there! <span className="animate-bounce inline-block">👋</span> I&apos;m Salaheddine elfatimi, a Full-Stack Developer based in Marrakech, 
-            specializing in building scalable, efficient, and user-friendly web applications. 
-            I turn ideas into high-performance digital experiences.
+                Hi there! <span className="animate-bounce inline-block">👋</span> I&apos;m Salaheddine Elfatimi, a Full Stack Developer & Web Marketer based in Marrakech,  
+                specializing in building scalable, efficient, and user-friendly web applications while crafting impactful digital marketing strategies.  
+                I turn ideas into high-performance digital experiences.
             </p>
+            
             <div className="relative flex gap-4 mt-6 ">
                 <Link className="  hover:shadow-[0_0_40px_rgba(147,235,255,3.9)]  transition-all border-[#fff] hover:border-primary group   rounded-full  border-4  duration-500 p-2 flex items-center justify-center" href={'/resume.pdf'} target="_blank"><File  className="stroke-[#fff] group-hover:stroke-primary " size={30}/></Link>
                 <Link className="  hover:shadow-[0_0_40px_rgba(147,235,255,3.9)] transition-all border-[#fff] hover:border-primary group   rounded-full  border-4  duration-500 p-2 flex items-center justify-center" href={'mailto:job.elfatimi@gmail.com'} target="_blank"><Mail  className="stroke-[#fff] group-hover:stroke-primary" size={30}/></Link>

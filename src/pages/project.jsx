@@ -1,5 +1,6 @@
+'use client'
+import EmblaCarousel from "@/components/infiniteHorizontalScroll";
 import Image from "next/image";
-import { Link2, SquareArrowOutUpRight } from "lucide-react"
 import Link from "next/link";
 
 export default function Project(){
@@ -15,12 +16,12 @@ export default function Project(){
     ]
     
     return (
-        <div className=" py-10  relative min-h-screen flex flex-col justify-start items-start bg-[url('/patterns/noisy.webp')] object-cover ">
-        <div className="absolute animate-pulse -top-28 left-1/2 transform -translate-x-1/2 translate-y-0  w-[300px] lg:w-[1300px]  h-full bg-[#fe3c01]/50 opacity-50 rounded-t-full rounded-bl-3xl rounded-br-full blur-3xl z-0"></div>
-        <div className="absolute top-0 right-0 w-full h-full bg-[url('/patterns/grid.webp')] bg-left-top bg-no-repeat"></div>
-        <div className="absolute left-0 top-0  w-full h-full bg-[url('/patterns/grid.webp')] bg-right-top bg-no-repeat"></div>
-
+        <div className=" py-10  relative min-h-screen flex flex-col justify-start   bg-[url('/patterns/noisy.webp')] object-cover ">
+            <div className="absolute animate-pulse -top-28 left-1/2 transform -translate-x-1/2 translate-y-0  w-[300px] lg:w-[1300px]  h-full bg-[#fe3c01]/50 opacity-50 rounded-t-full rounded-bl-3xl rounded-br-full blur-3xl z-0"></div>
+            <div className="absolute top-0 right-0 w-full h-full bg-[url('/patterns/grid.webp')] bg-left-top bg-no-repeat"></div>
+            <div className="absolute left-0 top-0  w-full h-full bg-[url('/patterns/grid.webp')] bg-right-top bg-no-repeat"></div>
             <div className=" container ">
+
                     <h2 className="z-50 relative  font-bold text-7xl md:text-7xl text-center capitalize mt-6 text-[#fe3c01]">project</h2>
                     <div className="  flex flex-col xl:flex-row items-center justify-between  pt-16">
                        
@@ -54,6 +55,7 @@ export default function Project(){
                         </div>
                     </div>
             </div>
+            
         </div>
     )
 }

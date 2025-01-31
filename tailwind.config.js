@@ -33,6 +33,10 @@ module.exports = {
       },
     },
     extend: {
+      cursor: {
+        default: 'url(/images/cursor.png), default',
+        pointer: 'url(/images/cursor.png), pointer',
+      },
       colors: {
         bg:'#080E14',
         primary: '#93EBFF', 
