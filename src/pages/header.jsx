@@ -27,7 +27,7 @@ export default function Header() {
                     </span>
                 ))}
             </div>
-            <h1 className="relative lg:text-6xl text-4xl text-center font-bold -mt-4 bg-gradient-to-r from-[#CEB5EA] via-primary to-white text-transparent bg-clip-text">
+            <h1 className="relative lg:text-6xl text-4xl text-center font-bold -mt-4 bg-gradient-to-r from-[#fe3c01] via-primary to-white text-transparent bg-clip-text">
                 Full Stack Developer & Web Marketer
             </h1>
             <div className="  bg-primary rounded-full mt-6 border-8 border-primary relative w-[200px] lg:w-[300px]  flex items-center justify-center">
