@@ -10,7 +10,7 @@ export default function Project(){
         {image:'/project/clinique-chifa-tasnime.jpg', url:'https://www.clinique-chifa-marrakech.com/',title:"Clinique Chifa Tasnime",code:['NextJs','tailwindcss','gsap']},
         {image:'/project/caravanserai.png', url:'https://www.caravanserai-marrakech.com/',title:"Caravan Serai",code:['NextJs','tailwindcss','gsap']},
         {image:'/project/french_opaname.png', url:'https://www.french-opaname.com',title:"French O'Paname",code:['restApi','NextJs','tailwindcss','Wordpress']},
-        {image:'/project/saveursdesprairies.png', url:'https://saveursdesprairies.com/',title:'Saveurs Des Prairies',code:['WooCommerce','Wordpress']},
+        // {image:'/project/saveursdesprairies.png', url:'https://saveursdesprairies.com/',title:'Saveurs Des Prairies',code:['WooCommerce','Wordpress']},
         {image:'/project/dayafandco.png', url:'https://www.dayafandco.com/',title:'dayaf & co',code:['restApi','NextJs','tailwindcss','Wordpress']},
         {image:'/project/nj3d-marrakech.png', url:'https://nj3d-marrakech.com/',title:'nj3d marrakech',code:['Wordpress']},
         {image:'/project/elhabriConcept.png', url:'https://elhabriconcept.com',title:'Elhabri Concept',code:['Wordpress']},
