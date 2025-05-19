@@ -6,6 +6,8 @@ import Link from "next/link";
 export default function Project(){
     
     const website=[
+
+        {image:'/project/clinique-chifa-tasnime.jpg', url:'https://www.clinique-chifa-marrakech.com/',title:"Clinique Chifa Tasnime",code:['NextJs','tailwindcss','gsap']},
         {image:'/project/caravanserai.png', url:'https://www.caravanserai-marrakech.com/',title:"Caravan Serai",code:['NextJs','tailwindcss','gsap']},
         {image:'/project/french_opaname.png', url:'https://www.french-opaname.com',title:"French O'Paname",code:['restApi','NextJs','tailwindcss','Wordpress']},
         {image:'/project/saveursdesprairies.png', url:'https://saveursdesprairies.com/',title:'Saveurs Des Prairies',code:['WooCommerce','Wordpress']},
