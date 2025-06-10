@@ -31,11 +31,11 @@ export default function Header() {
                 Full Stack Developer & Web Marketer
             </h1>
             <div className="  bg-primary rounded-full mt-6 border-8 border-primary relative w-[250px] lg:w-[250px]  flex items-center justify-center">
-                <Image src={'/me.png'} className=" rounded-full " width={300} height={300}/>
+                <Image src={'/me.png'} className="rounded-full " width={300} height={300}/>
             </div>
             
             <p className="relative text-lg text-[#dfe5ec] mt-6 max-w-[600px] mx-auto text-center">
-                Hi there! <span className="animate-bounce inline-block">👋</span> I&apos;m Salaheddine Elfatimi, a Full Stack Developer & Web Marketer based in Marrakech,  
+                Hi there! <span className="inline-block animate-bounce">👋</span> I&apos;m Salaheddine Elfatimi, a Full Stack Developer & Web Marketer based in Marrakech,  
                 specializing in building scalable, efficient, and user-friendly web applications while crafting impactful digital marketing strategies.  
                 I turn ideas into high-performance digital experiences.
             </p>
@@ -44,7 +44,7 @@ export default function Header() {
                 <Link className="  hover:shadow-[0_0_40px_rgba(147,235,255,3.9)]  transition-all border-[#fff] hover:border-primary group   rounded-full  border-4  duration-500 p-2 flex items-center justify-center" href={'/resume.pdf'} target="_blank"><File  className="stroke-[#fff] group-hover:stroke-primary " size={30}/></Link>
                 <Link className="  hover:shadow-[0_0_40px_rgba(147,235,255,3.9)] transition-all border-[#fff] hover:border-primary group   rounded-full  border-4  duration-500 p-2 flex items-center justify-center" href={'mailto:job.elfatimi@gmail.com'} target="_blank"><Mail  className="stroke-[#fff] group-hover:stroke-primary" size={30}/></Link>
                 <Link className="  hover:shadow-[0_0_40px_rgba(147,235,255,3.9)] transition-all border-[#fff] hover:border-primary group   rounded-full  border-4  duration-500 p-2 flex items-center justify-center" href={'https://wa.me/+212602314804'} target="_blank"><MessageSquare  className="stroke-[#fff] group-hover:stroke-primary" size={30}/></Link>
-                <Link className="  hover:shadow-[0_0_40px_rgba(147,235,255,3.9)] transition-all border-[#fff] hover:border-primary group   rounded-full  border-4  duration-500 p-2 flex items-center justify-center" href={'https://www.linkedin.com/in/salaheddine-elfatimi-b160ab252/'} target="_blank"><Linkedin  className="stroke-[#fff] group-hover:stroke-primary" size={30}/></Link>    
+                <Link className="  hover:shadow-[0_0_40px_rgba(147,235,255,3.9)] transition-all border-[#fff] hover:border-primary group   rounded-full  border-4  duration-500 p-2 flex items-center justify-center" href={'www.linkedin.com/in/salaheddine-elfatimi'} target="_blank"><Linkedin  className="stroke-[#fff] group-hover:stroke-primary" size={30}/></Link>    
                 <Link className="  hover:shadow-[0_0_40px_rgba(147,235,255,3.9)] transition-all border-[#fff] hover:border-primary group   rounded-full  border-4  duration-500 p-2 flex items-center justify-center" href={'https://www.instagram.com/salaheddine_elfatimi/'} target="_blank"><Instagram  className="stroke-[#fff] group-hover:stroke-primary" size={30} /></Link>
             </div>
             
