@@ -30,8 +30,8 @@ export default function Header() {
             <h1 className="relative lg:text-6xl text-4xl text-center font-bold -mt-4 bg-gradient-to-r from-[#fe3c01]  via-primary to-white text-transparent bg-clip-text">
                 Full Stack Developer & Web Marketer
             </h1>
-            <div className="  bg-primary rounded-full mt-6 border-8 border-primary relative w-[250px] lg:w-[250px]  flex items-center justify-center">
-                <Image src={'/me.png'} className="rounded-full " width={300} height={300}/>
+            <div className="relative flex items-center justify-center mt-6 border-8 rounded-full bg-primary border-primary">
+                <Image src={'/me_2.jpg'} className="object-cover rounded-full w-[300px] h-[300px] " width={300} height={300}/>
             </div>
             
             <p className="relative text-lg text-[#dfe5ec] mt-6 max-w-[600px] mx-auto text-center">
